@@ -1,0 +1,102 @@
+:root {
+  --sectionMargin: 100px auto;
+  --sectionWidth: 90%;
+  --heading: rgba(0, 0, 0, 0.8);
+  --content: rgba(0, 0, 0, 0.8);
+}
+body {
+  background: #fff;
+}
+
+section#about-header {
+  width: var(--sectionWidth);
+  margin: var(--sectionMargin);
+  /* background: var(--pink); */
+}
+#about-header .abt-content {
+  padding-right: 2rem;
+}
+#about-header h1 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: var(--heading);
+}
+
+#about-header h1 .text-1 {
+  color: var(--dblue);
+}
+
+#about-header h1 .text-2 {
+  color: var(--pink);
+}
+
+#about-header h1::before,
+#genres h2::before {
+  content: "";
+  position: absolute;
+  top: -2%;
+  left: 1.5%;
+  width: 15%;
+  height: 10px;
+  border-radius: 30px;
+  background: var(--dblue);
+}
+
+#about-header p {
+  text-align: justify;
+  color: var(--content);
+}
+
+.abt-princi-img {
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+  background-position: center;
+  background-origin: border-box;
+}
+
+.right-img-abt {
+  display: flex;
+  flex-direction: column;
+}
+.right-img-abt .princi-name {
+  margin-top: 1rem;
+}
+
+.right-img-abt small {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+}
+
+/* Genres */
+
+section#genres {
+  width: var(--sectionWidth);
+  margin: var(--sectionMargin);
+}
+.curri,
+.mont,
+.secondary {
+  width: 100%;
+  height: 80vh;
+  margin-top: 5rem;
+}
+.curri h2,
+.mont h2,
+.secondary h2 {
+  margin-top: 2rem;
+}
+.curri h2::before,
+.mont h2::before,
+.secondary h2::before {
+  top: 3%;
+}
+.curri-img,
+.mont-img,
+.seconday-img {
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+  background-position: center;
+  background-origin: border-box;
+}
