@@ -17,7 +17,7 @@ get_header(); ?>
 
 <section id="about-header">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-6">
             <div class="abt-content">
                 <h1>Welcome to <span class="text-1"> Texas Int'l </span> <span class="text-2"> S. School </span></h1>
                 <p>
@@ -43,41 +43,18 @@ get_header(); ?>
                 </p>
             </div>
         </div>
-        <div class="col-md-4 right-img-abt">
-            <div class="abt-princi-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bhesh.png)"></div>
-            <div class="princi-name">Mr Bhesh Raj Pokhrel</div>
-            <small>CEO</small>
+        <div class="col-md-6 right-img-abt">
+            <div class="abt-princi-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/building.png)"></div>
+
         </div>
     </div>
 </section>
 
 <section id="genres">
-    <div class="row curri">
-        <div class="col-md-6">
-            <h2>Curriculum</h2>
-
-            <p>
-                The school fully adopts the
-                national curricular text books
-                prescribed by the Government
-                of Nepal. Some of the additional
-                books have been included as
-                references to provide a wider
-                learning opportunity for
-                students.
-            </p>
-
-        </div>
-        <div class="col-md-6">
-            <div class="curri-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/curri.png)"></div>
-        </div>
-    </div>
 
     <div class="row mont">
-        <div class="col-md-6">
-            <div class="curri-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/mont.png)"></div>
-        </div>
-        <div class="col-md-6">
+        <div class="mon-wrapper"></div>
+        <div class="col-md-6 mon-content">
             <h2>Texas Montessori School</h2>
             <p>
                 A strong foundation builds a durable house.
@@ -95,10 +72,17 @@ get_header(); ?>
                 food etc.
             </p>
         </div>
+        <div class="col-md-6 mon-img-content">
+            <div class="mont-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/mont.png)"></div>
+        </div>
     </div>
 
-    <div class="row secondary">
-        <div class="col-md-6">
+    <div class="row mont">
+        <div class="mon-wrapper"></div>
+        <div class="col-md-6 mon-img-content">
+            <div class="mont-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/secondary.png)"></div>
+        </div>
+        <div class="col-md-6 mon-content">
             <h2>Secondary School</h2>
             <p>
                 The school has a well-managed and
@@ -120,13 +104,89 @@ get_header(); ?>
                 with the latest pedagogy
             </p>
         </div>
-        <div class="col-md-6">
-            <div class="curri-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/secondary.png)"></div>
-        </div>
     </div>
 
 </section>
 
+<section id="mission-vision">
+    <h1 class="pt-3">Our mission and Vision</h1>
+    <!-- first  -->
+    <div class="inner-margin">
+        <div class="couple-div">
+            <div class="div-one">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the
+
+                </p>
+            </div>
+            <div class="div-two">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the
+
+                </p>
+            </div>
+        </div>
+        <p class="mv-desc">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release
+            of Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including
+            versions of Lorem Ipsum.
+        </p>
+
+        <!-- second   -->
+        <div class="couple-div">
+            <div class="div-one pink">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the
+
+                </p>
+            </div>
+            <div class="div-two pink-opac">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the
+
+                </p>
+            </div>
+
+        </div>
+        <p class="mv-desc">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release
+            of Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including
+            versions of Lorem Ipsum.
+        </p>
+    </div>
+</section>
 
 <!-- footer session  -->
 <?php include('footer-self.php') ?>

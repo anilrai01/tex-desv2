@@ -76,26 +76,25 @@ get_header(); ?>
   <div class="message-content">
     <h1>A message from the Principal</h1>
     <p>
-      Education leads us towards the open path of perfection:
-      It cannot be confined to the narrow periphery of bookish
-      knowledge; it transcends the barriers of geography, culture
-      and the nation.
+      Success is a ladder that cannot be climbed keeping hands in your
+      pockets; neither it is a destination of a race that you run to overcome
+      others. It is an effort for a long journey that we undertake to march ahead
+      together with co-operation and co-ordination; for which, I do believe, we
+      require the tri-partite endeavors of students, parents and teachers. I
+      anticipate this mutual bond remains among us for your academic success
+      and holistic development.
+
     </p>
     <p>
-      Certainly, you will find Texas Network committed to the
-      changes and reforms, we are supposed to adopt in our
-      education delivery and to boost all-round development of
-      the students through project oriented techniques so that
-      they will be well prepared theoretically and practically to
-      deal with the problems in the days to come
-      <div class="princi-name">- Mr Bhesh Raj Pokhrel</div>
+      Let us dream together and make our best efforts for its materialization. Thank You.
+      <div class="princi-name">- Mr Shyam Sundar Shrestha</div>
     </p>
 
     <button class="btn btn-primary mt-3"> Explore </button>
 
   </div>
   <div class="half-bg">
-    <div class="princi-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bhesh.png)">
+    <div class="princi-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/princi.png)">
     </div>
   </div>
 </section>
