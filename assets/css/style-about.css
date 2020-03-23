@@ -2,7 +2,7 @@
   --sectionMargin: 100px auto;
   --sectionWidth: 90%;
   --heading: rgba(0, 0, 0, 0.8);
-  --content: rgba(0, 0, 0, 0.8);
+  --content: rgba(0, 0, 0, 0.7);
   --bopac: rgba(50, 47, 126, 0.1);
   --popac: rgba(235, 12, 119, 0.1);
 }
@@ -11,11 +11,26 @@ body {
 }
 
 section#about-header {
+  position: relative;
   width: 100%;
   height: auto;
   margin: var(--sectionMargin);
   padding: 2rem 5rem !important;
   /* background: var(--pink); */
+}
+#about-header .img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 800px;
+}
+.img2 {
+  position: absolute;
+  top: 0;
+  right: 0 !important;
+  width: 500px;
+  height: 500px;
 }
 
 #about-header .abt-content {
@@ -49,6 +64,7 @@ section#about-header {
 #about-header p {
   text-align: justify;
   color: var(--content);
+  font-weight: bold;
 }
 
 .abt-princi-img {
@@ -59,17 +75,134 @@ section#about-header {
   background-origin: border-box;
 }
 
-.right-img-abt {
+.left-list {
+  width: 100%;
+  height: 100%;
+  /* background: red; */
   display: flex;
-  flex-direction: column;
-}
-.right-img-abt .princi-name {
-  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.right-img-abt small {
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 18px;
+.left-list ul {
+  list-style-type: none;
+  padding-top: 3rem;
+}
+.left-list ul li {
+  color: #fff;
+  padding-bottom: 1.5rem;
+  position: relative;
+  font-size: 1rem;
+  font-weight: bold;
+  /* background-color: red; */
+  margin-bottom: 5rem;
+}
+
+.left-list ul li::after {
+  content: url(../images/pages/about-page/headStick.png);
+  position: absolute;
+  bottom: 0;
+  left: -43%;
+  width: 130%;
+  height: 50px;
+  color: #fff;
+}
+.left-list ul li:nth-child(4)::after {
+  left: -42%;
+}
+.left-list ul li:nth-child(1),
+.left-list ul li:nth-child(4) {
+  /* position: relative; */
+  left: -30%;
+}
+
+section#why-us {
+  width: 100%;
+  height: 80vh;
+  /* background: pink; */
+}
+#why h1 {
+  font-weight: bold;
+  color: var(--dblue);
+}
+
+#why p {
+  font-size: 16px;
+  text-align: justify;
+}
+.left-why {
+  /* background-color: pink; */
+  position: relative;
+  width: 100%;
+  /* height: 100%; */
+}
+.left-why img {
+  position: absolute;
+  top: 10%;
+  z-index: -1;
+  /* background: red; */
+}
+.left-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-color: red; */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20rem;
+  height: 7rem;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  z-index: 5;
+}
+.lc-head {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--dblue);
+}
+.lc-cont p {
+  font-size: 12px !important;
+  line-height: 17px;
+}
+.left-card:nth-child(2) {
+  top: 70% !important;
+}
+
+.left-card-right {
+  position: absolute;
+  top: 35%;
+  right: 0 !important;
+
+  /* background-color: red; */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20rem;
+  height: 7rem;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  z-index: 5;
+}
+
+/* banner    */
+#edu-banner {
+  width: 100%;
+  height: 80vh;
+  background-color: red;
+}
+.banner-bg {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Genres */
