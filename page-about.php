@@ -16,8 +16,21 @@
 get_header(); ?>
 
 <section id="about-header">
+    <img class="img1" src="<?php echo get_template_directory_uri(); ?>/assets/images/pages/about-page/HeadBg.svg" alt="">
+    <img class="img2" src="<?php echo get_template_directory_uri(); ?>/assets/images/pages/about-page/headEllipse.svg" alt="">
     <div class="row">
-        <div class="col-md-6">
+
+        <div class="col-md-5 left-list">
+
+            <ul>
+                <li>Excellent Teachers</li>
+                <li>Learning Environment</li>
+                <li>Extra Curriculum</li>
+                <li>Industrial Training</li>
+            </ul>
+
+        </div>
+        <div class="col-md-6 offset-1">
             <div class="abt-content">
                 <h1>Welcome to <span class="text-1"> Texas Int'l </span> <span class="text-2"> S. School </span></h1>
                 <p>
@@ -28,6 +41,18 @@ get_header(); ?>
                     BBA, BIT, BCS (Bachelor’s Level), as well as MBS and MBA (Master’s Level). Located at the heart of Kathmandu,
                     Mitrapark, Chabahil, it is accessible from all parts of the city and the peripheries.
                 </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- why us session  -->
+<section id="why-us">
+    <div class="container">
+        <div class="row" id="why">
+            <div class="col-md-6">
+                <h1>Why Us ?</h1>
                 <p>
                     To keep in pace with the global challenges of the twenty first century, we inculcate in students the strategies
                     required to develop the wholistic approach of knowledge for the material prosperity through spiritual
@@ -38,17 +63,43 @@ get_header(); ?>
                     and again enhanced by the trained instructors equipped with the sound knowledge of Technology and
                     the most updated genres of the curriculum. Apart from these, imparting the pragmatic aspects of learning
                     through socialization; i.e. familiarization of the recent status of the society with the first hand researcher is
-                    the prime concern of our institution
-
+                    the prime concern of our institution.
                 </p>
             </div>
-        </div>
-        <div class="col-md-6 right-img-abt">
-            <div class="abt-princi-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/building.png)"></div>
+            <div class="col-md-5 offset-1 left-why">
+                <img class="img1" src="<?php echo get_template_directory_uri(); ?>/assets/images/pages/about-page/why-svg.svg" alt="">
+                <div class="left-card">
+                    <div class="lc-head mb-1">Professional Teaching</div>
+                    <div class="lc-cont">
+                        <p>We’ve experienced teachers and teaching assistant with years and years of experience</p>
+                    </div>
+                </div>
+                <div class="left-card">
+                    <div class="lc-head mb-1">Professional Teaching</div>
+                    <div class="lc-cont">
+                        <p>We’ve experienced teachers and teaching assistant with years and years of experience</p>
+                    </div>
+                </div>
+                <div class="left-card-right">
+                    <div class="lc-head mb-1">Professional Teaching</div>
+                    <div class="lc-cont">
+                        <p>We’ve experienced teachers and teaching assistant with years and years of experience</p>
+                    </div>
+                </div>
 
+
+            </div>
         </div>
     </div>
 </section>
+
+
+<!-- banner session -->
+<seciton id="edu-banner">
+
+    <div class="banner-bg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/pages/about-page/img-banner.png)"></div>
+</seciton>
+
 
 <section id="genres">
 
@@ -189,7 +240,7 @@ get_header(); ?>
 </section>
 
 <!-- footer session  -->
-<?php include('footer-self.php') ?>
+
 <!-- end of footer sesstion  -->
 
 <?php

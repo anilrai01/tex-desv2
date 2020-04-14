@@ -763,7 +763,7 @@ a:active {
     padding: 16px 0;
     display: flex;
     align-items: center;
-    min-height: 97px;
+    min-height: 60px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -795,7 +795,7 @@ a:active {
     color: #000;
 }
 .site-logo img {
-    max-height: 65px;
+    max-height: 50px;
     width: auto;
     margin-right: 15px;
 }
@@ -803,6 +803,7 @@ a:active {
     display: block;
     position: relative;
     float: right;
+    margin-left:auto;
 }
 .main-navigation ul ul {
     background-color: #fff;
@@ -825,11 +826,19 @@ a:active {
 
 .main-navigation li {
     position: relative;
+    border-right: 2px solid #eb0c77;
+}
+.main-navigation li:last-child{
+    border-right: none;
 }
 
 .main-navigation ul.nav-menu > li > a {
-    padding: 34px 7px;
-    color: #000;
+    /*padding: 34px 7px;*/
+    padding:1.5rem 1rem;
+    /* color: #000; */
+    color:#fff;
+    text-transform: uppercase;
+    max-height:60px;
 }
 .main-navigation ul.nav-menu > li:hover > a {
     color: #4d6de6;
@@ -1926,6 +1935,11 @@ section {
 .entry-content {
     margin-top: 0;
 }
+header .wrapper{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+}
 .wrapper {
     width: 90%;
     max-width: 90%;
@@ -1980,14 +1994,14 @@ section {
     text-align: right;
 }
 .btn {
-    border-radius: 50px;
+    border-radius: 0PX;
     color: #fff;
     display: inline-block;
     font-weight: 600;
     padding: 11px 35px;
     font-size: 14px;
     position: relative;
-    border: 2px solid;
+    /* border: 2px solid; */
     background-color: #4d6de6;
     border-color: #4d6de6;
     color: #fff;
@@ -3624,7 +3638,7 @@ body.search.left-sidebar .blog-posts-wrapper .col-3 article .post-item .entry-co
 #                   Footer
 --------------------------------------------------------------*/
 #colophon {
-    background-color: #111115;
+    background:#16235d;
     color: rgba(255, 255, 255, 0.8);
 }
 #colophon a,
@@ -3644,7 +3658,7 @@ body.search.left-sidebar .blog-posts-wrapper .col-3 article .post-item .entry-co
     text-transform: uppercase;
 }
 .site-info {
-    background-color: #000;
+    background-color: #040a3b;
     padding: 18px 0;
     line-height: 1.5;
 }
@@ -4383,7 +4397,8 @@ body.search.left-sidebar .blog-posts-wrapper .col-3 article .post-item .entry-co
 }
 @media screen and (min-width: 1200px) {
     .main-navigation ul.nav-menu > li > a {
-        padding: 34px 18px;
+        /* padding: 34px 18px; */
+        padding:0 1rem !important;
     }
     #search:before {
         right: 15px;
@@ -4443,7 +4458,7 @@ body.search.left-sidebar .blog-posts-wrapper .col-3 article .post-item .entry-co
     }
     .site-branding {
         padding: 7px 0;
-        min-height: 80px;
+        min-height: 60px;
     }
     .site-title {
         font-size: 26px;

@@ -77,6 +77,7 @@ if ( ! function_exists( 'buziness_header_start' ) ) :
                     <?php if( ( ! empty( $email ) || ! empty( $phone ) || ! empty( $location ) ) && $show_contact ) : ?>
                         
                         <div class="widget widget_address_block">
+
                             <ul>
                                 <?php 
 
@@ -92,13 +93,13 @@ if ( ! function_exists( 'buziness_header_start' ) ) :
                                 ?>
                             </ul>
                         </div><!-- .widget_address_block -->
-                    <?php endif; 
+                    <?php endif;  ?>
 
-                    if ( $show_social ){ ?>
-                        <div class="widget widget_social_icons">
-                           <?php buziness_render_social_links(); ?>
-                        </div><!-- .widget_social_icons -->
-                    <?php } ?>
+                    <?php // if ( $show_social ){ ?>
+                        <!-- <div class="widget widget_social_icons"> -->
+                           <!-- <?php // buziness_render_social_links(); ?> -->
+                        <!-- </div> -->
+                    <!-- <?php // } ?> -->
                 </div><!-- .wrapper -->
             </div><!-- #top-bar -->
         <?php
