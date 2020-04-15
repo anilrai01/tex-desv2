@@ -24,6 +24,12 @@
   margin-right: 0;
 }
 
+.page-cont-wrapper {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
 .leaf-over {
   width: 100%;
   height: 100%;

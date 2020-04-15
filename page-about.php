@@ -49,9 +49,9 @@ get_header(); ?>
 
 <!-- why us session  -->
 <section id="why-us">
-    <div class="container">
+    <div class="page-cont-wrapper">
         <div class="row" id="why">
-            <div class="col-md-6">
+            <div class="col-md-6 pr-2">
                 <h1>Why Us ?</h1>
                 <p>
                     To keep in pace with the global challenges of the twenty first century, we inculcate in students the strategies
@@ -66,7 +66,7 @@ get_header(); ?>
                     the prime concern of our institution.
                 </p>
             </div>
-            <div class="col-md-5 offset-1 left-why">
+            <div class="col-md-6 left-why">
                 <img class="img1" src="<?php echo get_template_directory_uri(); ?>/assets/images/pages/about-page/why-svg.svg" alt="">
                 <div class="left-card">
                     <div class="lc-head mb-1">Professional Teaching</div>
@@ -93,6 +93,20 @@ get_header(); ?>
     </div>
 </section>
 
+
+<!-- parallax section -->
+<section id="parallax">
+
+    <div class="parallax-bg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/parallax.png)"></div>
+    <div class="parallax-overlay"></div>
+
+    <div class="page-cont-wrapper parallax-cont">
+        <span>- Abraham Lincoln</span>
+        <h1>" Give me six hours to chop down a tree</h1>
+        <h2>I will spend first four sharpening the axe"</h2>
+    </div>
+
+</section>
 
 <!-- banner session -->
 <seciton id="edu-banner">
@@ -239,9 +253,6 @@ get_header(); ?>
     </div>
 </section>
 
-<!-- footer session  -->
-
-<!-- end of footer sesstion  -->
 
 <?php
 while (have_posts()) : the_post();

@@ -118,7 +118,8 @@ section#about-header {
 
 section#why-us {
   width: 100%;
-  height: 80vh;
+  height: auto;
+  margin: 4rem 0;
   /* background: pink; */
 }
 #why h1 {
@@ -138,14 +139,17 @@ section#why-us {
 }
 .left-why img {
   position: absolute;
-  top: 10%;
+  /* top: 10%; */
+  right: 20px;
   z-index: -1;
+  width: 100%;
+  height: 95%;
   /* background: red; */
 }
 .left-card {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5rem;
   /* background-color: red; */
 
   display: flex;
@@ -342,4 +346,43 @@ section#mission-vision {
 }
 .pink-opac p {
   color: var(--pink);
+}
+
+/* Parallax  */
+#parallax {
+  width: 100%;
+  height: 600px;
+  margin: 4rem 0;
+
+  position: relative;
+}
+
+#parallax .parallax-bg {
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.parallax-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 47, 126, 50%);
+}
+
+.parallax-cont {
+  position: absolute;
+  left: 8rem;
+  bottom: 3rem;
+  color: #fff;
+}
+.parallax-cont h1,
+.parallax-cont h2 {
+  color: #fff;
+  font-weight: 500;
 }
