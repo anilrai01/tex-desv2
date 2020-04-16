@@ -107,6 +107,19 @@ get_header(); ?>
     </div>
 
 </section>
+<!-- eof parallax  -->
+
+
+<!-- service section  -->
+
+<section id="service">
+    <h4 class="text-center">We Provide</h4>
+    <h2 class="text-center ab-stick position-relative">Our Services</h2>
+
+</section>
+
+<!-- eof service section  -->
+
 
 <!-- banner session -->
 <seciton id="edu-banner">
@@ -172,6 +185,9 @@ get_header(); ?>
     </div>
 
 </section>
+
+
+
 
 <section id="mission-vision">
     <h1 class="pt-3">Our mission and Vision</h1>
