@@ -17,27 +17,16 @@ get_header(); ?>
 <!-- model splash screen  -->
 <!-- Modal -->
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content" id="modal-content">
-      <!-- <div class="modal-header">
-         <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div> -->
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+      <div class="modal-body position-relative">
+        <button type="button" class="close p-2 position-absolute" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <div class="modal-img" style="background:url(<?php echo get_template_directory_uri(); ?>/assets/images/about/building.png);    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;"></div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/building.png" />
       </div>
-      <div class="modal-footer">
-        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button> -->
-        <h2 class="text-center">Admission Open</h2>
-      </div>
+
     </div>
   </div>
 </div>
