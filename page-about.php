@@ -244,6 +244,25 @@ get_header(); ?>
 
 </section>
 
+<!-- eof mvg seciton  -->
+
+<section id="history">
+    <h2 class="text-pink">History</h2>
+    <div class="row history-row">
+        <div class="col-md-6 col-sm-12">
+            <div class="hiss-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/hiss.png)"></div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="his-highlight">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor incidunt, eveniet laborum expedita natus optio fuga officiis sunt, quos repellendus ullam placeat porro aliquam totam magnam doloremque voluptatum doloribus excepturi!
+            </div>
+            <p class="py-4 text-justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+    </div>
+</section>
+
 
 <?php
 while (have_posts()) : the_post();
