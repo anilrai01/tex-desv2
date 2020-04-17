@@ -1405,3 +1405,22 @@ section#img-grid {
     text-align: center;
   }
 }
+
+.text-brand {
+  color: var(--dblue);
+}
+.text-pink {
+  color: var(--pink);
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.bg-pink {
+  background: var(--pink) !important;
+}
+
+.bg-yellow {
+  background: var(--yellow) !important;
+}

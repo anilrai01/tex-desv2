@@ -169,7 +169,7 @@ get_header(); ?>
           <?php if ($the_query->have_posts()) : ?>
             <?php while ($the_query->have_posts()) : $the_query->the_post();
               if ($count <= 2) { ?>
-                <div class="position-absolute circle-md" data-toggle="tooltip" data-placement="top" title="Tooltip on top" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)">
+                <div class="position-absolute circle-md" data-toggle="tooltip" data-placement="top" title="<?php echo get_the_title(); ?>" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)">
                 </div>
           <?php } else {
                 break;
@@ -191,7 +191,7 @@ get_header(); ?>
           if ($the_query->have_posts()) : ?>
             <?php while ($the_query->have_posts()) : $the_query->the_post();
               if ($count <= 4 && $count > 2) { ?>
-                <div class="position-absolute circle-big" data-toggle="tooltip" data-placement="top" title="Tooltip on top" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)">
+                <div class="position-absolute circle-big" data-toggle="tooltip" data-placement="top" title="<?php echo get_the_title(); ?>" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)">
                 </div>
           <?php } elseif ($count > 4) {
                 break;
@@ -229,7 +229,7 @@ get_header(); ?>
           if ($the_query->have_posts()) : ?>
             <?php while ($the_query->have_posts()) : $the_query->the_post();
               if ($count <= 7 && $count > 4) { ?>
-                <div class="position-absolute circle-md" data-toggle="tooltip" data-placement="top" title="Tooltip on top" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
+                <div class="position-absolute circle-md" data-toggle="tooltip" data-placement="top" title="<?php echo get_the_title(); ?>" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
                 </div>
           <?php } elseif ($count > 7) {
                 break;
@@ -251,7 +251,7 @@ get_header(); ?>
           if ($the_query->have_posts()) : ?>
             <?php while ($the_query->have_posts()) : $the_query->the_post();
               if ($count <= 9 && $count > 7) { ?>
-                <div class="position-absolute circle-big" data-toggle="tooltip" data-placement="top" title="Tooltip on top" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)">
+                <div class="position-absolute circle-big" data-toggle="tooltip" data-placement="top" title="<?php echo get_the_title(); ?>" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)">
                 </div>
           <?php } else if ($count > 9) {
                 break;

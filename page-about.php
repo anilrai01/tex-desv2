@@ -15,33 +15,38 @@
 
 get_header(); ?>
 
+
 <section id="about-header">
-    <img class="img1" src="<?php echo get_template_directory_uri(); ?>/assets/images/pages/about-page/HeadBg.svg" alt="">
-    <img class="img2" src="<?php echo get_template_directory_uri(); ?>/assets/images/pages/about-page/headEllipse.svg" alt="">
-    <div class="row">
+    <img class="imgg" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/texastop.png" alt="">
 
-        <div class="col-md-5 left-list">
+    <div class="sec-cont mt-5">
+        <img class="img1" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/HeadBgFull.svg" alt="">
+        <img class="img2" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/EllipseFull.svg" alt="">
+        <div class="row">
 
-            <ul>
-                <li>Excellent Teachers</li>
-                <li>Learning Environment</li>
-                <li>Extra Curriculum</li>
-                <li>Industrial Training</li>
-            </ul>
+            <div class="col-md-5 left-list">
 
-        </div>
-        <div class="col-md-6 offset-1">
-            <div class="abt-content">
-                <h1>Welcome to <span class="text-1"> Texas Int'l </span> <span class="text-2"> S. School </span></h1>
-                <p>
+                <ul>
+                    <li>Excellent Teachers</li>
+                    <li>Learning Environment</li>
+                    <li>Extra Curriculum</li>
+                    <li>Industrial Training</li>
+                </ul>
 
-                    Established by a team of experienced, qualified, dedicated and dynamic academicians in the year 1992,
-                    Texas International Secondary School falls under the canopy of Texas International Education Network,
-                    which comprises of Science, Management, Humanities and Law (XI &XII), BBS, BA,BSW, B Sc.CSIT, BBM &
-                    BBA, BIT, BCS (Bachelor’s Level), as well as MBS and MBA (Master’s Level). Located at the heart of Kathmandu,
-                    Mitrapark, Chabahil, it is accessible from all parts of the city and the peripheries.
-                </p>
+            </div>
+            <div class="col-md-7">
+                <div class="abt-content">
+                    <h1>Welcome to <span class="text-1"> Texas Int'l </span> <span class="text-2"> S. School </span></h1>
+                    <p>
 
+                        Established by a team of experienced, qualified, dedicated and dynamic academicians in the year 1992,
+                        Texas International Secondary School falls under the canopy of Texas International Education Network,
+                        which comprises of Science, Management, Humanities and Law (XI &XII), BBS, BA,BSW, B Sc.CSIT, BBM &
+                        BBA, BIT, BCS (Bachelor’s Level), as well as MBS and MBA (Master’s Level). Located at the heart of Kathmandu,
+                        Mitrapark, Chabahil, it is accessible from all parts of the city and the peripheries.
+                    </p>
+
+                </div>
             </div>
         </div>
     </div>
@@ -51,7 +56,7 @@ get_header(); ?>
 <section id="why-us">
     <div class="page-cont-wrapper">
         <div class="row" id="why">
-            <div class="col-md-6 pr-2">
+            <div class="col-md-6 pr-2 col-sm-12">
                 <h1>Why Us ?</h1>
                 <p>
                     To keep in pace with the global challenges of the twenty first century, we inculcate in students the strategies
@@ -66,7 +71,7 @@ get_header(); ?>
                     the prime concern of our institution.
                 </p>
             </div>
-            <div class="col-md-6 left-why">
+            <div class="col-md-6 left-why col-sm-12">
                 <img class="img1" src="<?php echo get_template_directory_uri(); ?>/assets/images/pages/about-page/why-svg.svg" alt="">
                 <div class="left-card">
                     <div class="lc-head mb-1">Professional Teaching</div>
@@ -112,28 +117,25 @@ get_header(); ?>
 
 <!-- service section  -->
 
-<section id="service">
-    <h4 class="text-center">We Provide</h4>
-    <h2 class="text-center ab-stick position-relative">Our Services</h2>
 
-</section>
 
 <!-- eof service section  -->
 
 
-<!-- banner session -->
-<seciton id="edu-banner">
-
-    <div class="banner-bg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/pages/about-page/img-banner.png)"></div>
-</seciton>
-
-
 <section id="genres">
-
+    <header>
+        <div class="genre-service">
+            <!-- <h4 class="text-center">We Provide</h4> -->
+            <h2 class="text-center ab-stick position-relative">Our Services</h2>
+        </div>
+    </header>
     <div class="row mont">
-        <div class="mon-wrapper"></div>
+        <div class="mon-wrapper" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/polygon.png)"></div>
+        <div class="col-md-6 mon-img-content">
+            <div class="mont-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/mont.png)"></div>
+        </div>
         <div class="col-md-6 mon-content">
-            <h2>Texas Montessori School</h2>
+            <h2 class="text-brand">Texas Montessori School</h2>
             <p>
                 A strong foundation builds a durable house.
                 The buds today require a smooth care,
@@ -150,18 +152,12 @@ get_header(); ?>
                 food etc.
             </p>
         </div>
-        <div class="col-md-6 mon-img-content">
-            <div class="mont-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/mont.png)"></div>
-        </div>
     </div>
 
     <div class="row mont">
-        <div class="mon-wrapper"></div>
-        <div class="col-md-6 mon-img-content">
-            <div class="mont-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/secondary.png)"></div>
-        </div>
+        <div class="mon-wrapper-right" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/polygon.png)"></div>
         <div class="col-md-6 mon-content">
-            <h2>Secondary School</h2>
+            <h2 class="text-brand">Secondary School</h2>
             <p>
                 The school has a well-managed and
                 well-equipped computer lab for the
@@ -182,6 +178,9 @@ get_header(); ?>
                 with the latest pedagogy
             </p>
         </div>
+        <div class="col-md-6 mon-img-content">
+            <div class="mont-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/secondary.png)"></div>
+        </div>
     </div>
 
 </section>
@@ -190,83 +189,59 @@ get_header(); ?>
 
 
 <section id="mission-vision">
-    <h1 class="pt-3">Our mission and Vision</h1>
+    <!-- <h1 class="pt-3">Our mission and Vision</h1> -->
     <!-- first  -->
-    <div class="inner-margin">
-        <div class="couple-div">
-            <div class="div-one">
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the
-                    1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the
+    <div class="row mission-row">
+        <div class="col-md-6 left-mission p-0">
+            <div class="pink"></div>
+            <div class="lpink"></div>
+            <div class="miss-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/about/history.png)"></div>
+        </div>
+        <div class="col-md-6 right-mission">
+            <div class="mv-list change-margin fix-margin">
+                <div class="mv-item my-5">
+                    <div class="mission-icon mr-4">
+                        <img class="micon" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/rocket.png" alt="">
+                    </div>
+                    <div class="mission-content">
+                        <h3 class="text-brand">Mission</h3>
+                        <p>
+                            To provide excellent education to
+                            all deserving students out there.
+                            We’ve been in this mission since
+                            past 12 years.
+                        </p>
+                    </div>
+                </div>
 
-                </p>
-            </div>
-            <div class="div-two">
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the
-                    1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the
+                <div class="mv-item mb-5">
+                    <div class="mission-icon mr-4 bg-pink">
+                        <img class="micon" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/idea.png" alt="">
+                    </div>
+                    <div class="mission-content">
+                        <h3 class="text-pink">Vision</h3>
+                        <p>
+                            We have a very strong vision to take the education system to the very next level of excellence
+                        </p>
+                    </div>
+                </div>
 
-                </p>
+                <div class="mv-item">
+                    <div class="mission-icon mr-4 b bg-yellow">
+                        <img class="micon" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/target.png" alt="">
+                    </div>
+                    <div class="mission-content">
+                        <h3 class="text-yellow">Goal</h3>
+                        <p>
+                            The only goal is to educate all the people and provide them with the sufficient skill to help them survive in this society.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <p class="mv-desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
-        </p>
-
-        <!-- second   -->
-        <div class="couple-div">
-            <div class="div-one pink">
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the
-                    1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the
-
-                </p>
-            </div>
-            <div class="div-two pink-opac">
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the
-                    1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the
-
-                </p>
-            </div>
-
-        </div>
-        <p class="mv-desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
-        </p>
     </div>
+
 </section>
 
 
